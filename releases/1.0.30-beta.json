@@ -1,0 +1,21 @@
+{
+  "version": "1.0.30-beta",
+  "channel": "BETA",
+  "buildVersion": "2026-05-15T19:37:17Z",
+  "sha256": "1072105cfc5a5e1da6c48e6bb8d18fb0b8908356b8c8ab03471e228a4201284d",
+  "fileName": "locker-controller-esp32-v1.0.30-beta.bin",
+  "sizeBytes": 1011504,
+  "hardwareModes": [
+    "ESP32_GPIO",
+    "MCP23017"
+  ],
+  "availableDoors": [
+    8,
+    16,
+    32
+  ],
+  "mandatory": false,
+  "minVersion": "0.0.0",
+  "sourceCommit": "00b934c",
+  "notes": "Reduz polling de comandos IoT para 2 segundos."
+}
